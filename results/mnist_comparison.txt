@@ -1,0 +1,10 @@
+MNIST 10-Digit Classification: Topology Comparison
+==================================================
+
+Random Sparse: 89.8% (21.5s)
+9D Hypercube: 90.6% (18.7s)
+Full Connection: 72.0% (18.7s)
+No Mask: 71.0% (17.2s)
+
+Best: 9D Hypercube
+Hypercube advantage: +0.8%
