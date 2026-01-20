@@ -1,0 +1,12 @@
+11-Dimensional Brain Structure Simulation
+========================================
+
+Based on Blue Brain Project's discovery:
+- Brain has structures up to 11 dimensions
+- Dimension = clique size - 1
+- 12 neurons fully connected = 11-dimensional simplex
+
+Key findings:
+- High-dimensional structures increase information capacity
+- Pattern recognition improves with dimension
+- 10-11 dimensions may be optimal for brain function
