@@ -1,0 +1,10 @@
+11-Dimensional Hypercube Experiments
+========================================
+
+Key findings:
+- 11D hypercube: 11 steps to propagate (vs 90+ for 2D)
+- 10-11D optimal for 10-category separation
+- Parameter reduction: ~200x with 11D mask
+
+Decimal hypothesis:
+- 10 fingers + 11D brain = optimal for base-10
