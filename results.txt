@@ -1,0 +1,12 @@
+Von Neumann vs Brain-like Computer Simulation Results
+==================================================
+
+Information Capacity:
+  5 units: ratio = 3125.0x
+  8 units: ratio = 390625.0x
+  10 units: ratio = 9765625.0x
+  12 units: ratio = 244140625.0x
+
+Pattern Matching Efficiency: 102x
+
+Energy Efficiency: 40.0x
