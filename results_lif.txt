@@ -1,0 +1,7 @@
+Brain vs Von Neumann: LIF Neuron Integration Results
+==================================================
+
+Neurons: 10, Bits: 10
+Information Capacity Ratio: 9765625x
+Energy Efficiency: 1.3x
+Encoding Accuracy: Some errors
