@@ -1,0 +1,13 @@
+Brain vs Von Neumann: Validation Results
+==================================================
+
+Encoding Accuracy: 100.0%
+Parallel Speedup: 102x
+Energy Efficiency: 5.9x
+
+Capacity Scaling:
+  2 units: 25x
+  4 units: 625x
+  6 units: 15625x
+  8 units: 390625x
+  10 units: 9765625x
