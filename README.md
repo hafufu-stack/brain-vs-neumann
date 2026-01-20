@@ -1,6 +1,6 @@
 # Brain vs Von Neumann Computer Simulation
 
-🧠 **Von Neumann Architecture vs Brain-like Architecture: A Comparative Study**
+🧠 **Von Neumann Architecture vs Brain-like Architecture: A Comprehensive Study**
 
 ## Overview
 
@@ -12,32 +12,70 @@ This project tests the hypothesis:
 
 | Metric | Von Neumann | Brain-like | Advantage |
 |--------|-------------|------------|-----------|
-| **Information Capacity** | 2^n | 10^n | **9,765,625x** |
+| **Information Capacity** | 2^n | 10^n | **9.77×10⁶x** (10 units) |
 | **Pattern Matching** | O(n) serial | O(1) parallel | **102x faster** |
 | **Fault Tolerance** | 1 bit = crash | 30% failure OK | **✅** |
-| **Energy Efficiency** | 6000 pJ | 150 pJ | **40x** |
+| **Energy Efficiency** | 6000 pJ | 60 pJ | **100x** |
 
-## The Hypothesis
+## Real-World Task Results
 
-Traditional von Neumann computers use **discrete bits** (0 or 1).
+| Task | Brain-like | Von Neumann |
+|------|-----------|-------------|
+| Pattern Recognition | ✓ | ✓ |
+| Associative Memory | ✓ | ✗ |
+| Sequence Prediction | ✓ | ✓ |
+| Sensor Fusion | ✓ | ✓ |
+| **Total** | **4/4** | **3/4** |
 
-Brain-like computers use **temporal coding**:
-- Same number of neurons
-- But information is encoded in **WHEN** they fire
-- Result: Exponentially more information capacity!
+## Scaling Analysis
 
-## Example
+- **100 dimensions**: Brain has **7.89×10⁶⁹x** more capacity!
+- Energy efficiency: Brain is **100x** better at all scales
+
+## File Structure
 
 ```
-10 bits (Von Neumann):     2^10 = 1,024 patterns
-10 neurons × 10 timings:  10^10 = 10,000,000,000 patterns
-                          → 9.7 million times more!
+brain-vs-neumann/
+├── README.md
+├── visualize.py              # Generate publication figures
+├── experiments/
+│   ├── brain_vs_neumann_sim.py    # Basic simulation
+│   ├── brain_vs_neumann_lif.py    # LIF neuron integration
+│   ├── validation_suite.py        # Comprehensive tests
+│   ├── realworld_tasks.py         # Real-world task comparison
+│   └── scaling_analysis.py        # Scaling analysis
+├── figures/                  # Publication-quality figures
+│   ├── fig1_information_capacity.png
+│   ├── fig2_architecture.png
+│   ├── fig3_pattern_matching.png
+│   ├── fig4_fault_tolerance.png
+│   ├── fig5_energy.png
+│   ├── fig6_summary.png
+│   └── fig_scaling_*.png
+└── results/                  # Experiment results
+    ├── results.txt
+    ├── validation_results.txt
+    ├── realworld_results.txt
+    └── scaling_results.txt
 ```
 
 ## Usage
 
 ```bash
-python brain_vs_neumann_sim.py
+# Run basic simulation
+python experiments/brain_vs_neumann_sim.py
+
+# Run validation suite
+python experiments/validation_suite.py
+
+# Run real-world tasks
+python experiments/realworld_tasks.py
+
+# Run scaling analysis
+python experiments/scaling_analysis.py
+
+# Generate figures
+python visualize.py
 ```
 
 ## Related Work

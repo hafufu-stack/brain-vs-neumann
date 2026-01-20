@@ -1,0 +1,7 @@
+Brain vs Von Neumann: Scaling Analysis
+========================================
+
+Key findings:
+- Brain scales O(d), Von Neumann scales O(n×d)
+- Capacity: Brain 10^d vs Von 2^d
+- Efficiency advantage grows with scale

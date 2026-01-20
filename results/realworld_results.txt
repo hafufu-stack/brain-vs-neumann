@@ -1,0 +1,11 @@
+Real-World Task Comparison Results
+========================================
+
+Brain-like: 4/4 correct
+Von Neumann: 3/4 correct
+
+Tasks:
+  Pattern Recognition: Brain=✓, Von=✓
+  Associative Memory: Brain=✓, Von=✗
+  Sequence Prediction: Brain=✓, Von=✓
+  Sensor Fusion: Brain=✓, Von=✓
