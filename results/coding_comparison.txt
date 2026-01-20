@@ -1,0 +1,23 @@
+Coding Scheme Comparison Results
+========================================
+
+Rate Coding:
+  Capacity: 2.59e+10
+  Ratio: 25329516x
+  Accuracy: 100%
+
+Phase Coding:
+  Capacity: 1.00e+10
+  Ratio: 9765625x
+  Accuracy: 100%
+
+Burst Coding:
+  Capacity: 9.54e+13
+  Ratio: 93132257462x
+  Accuracy: 100%
+
+Correlation Coding:
+  Capacity: 1.00e+09
+  Ratio: 976562x
+  Accuracy: 100%
+

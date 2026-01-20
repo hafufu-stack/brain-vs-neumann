@@ -1,0 +1,6 @@
+Hopfield vs Von Neumann: Associative Memory
+========================================
+
+50% noise recall:
+  Hopfield: 0/5
+  Von Neumann: 1/5

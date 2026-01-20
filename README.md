@@ -81,7 +81,7 @@ python visualize.py
 ## Related Work
 
 - [SNN Language Model](https://github.com/hafufu-stack/snn-language-model) - SNN for NLP
-- [SNN Comprypto](https://github.com/hafufu-stack/snn-comprypto) - SNN for encryption
+- [SNN Comprypto](https://github.com/hafufu-stack/temporal-coding-simulation/tree/main/snn-comprypto) - SNN for encryption
 
 ## Author
 
