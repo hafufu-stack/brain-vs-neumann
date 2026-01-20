@@ -1,0 +1,9 @@
+Base Comparison: Why Base-10?
+========================================
+
+Base-8: Hypercube 17.0%, Random 14.2%, Advantage +2.8%
+Base-10: Hypercube 4.8%, Random 0.5%, Advantage +4.2%
+Base-12: Hypercube 9.2%, Random 15.0%, Advantage -5.8%
+Base-16: Hypercube 14.0%, Random 14.8%, Advantage -0.7%
+
+Best base for Hypercube: Base-10

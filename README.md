@@ -4,9 +4,10 @@
 
 ## Overview
 
-This project tests the hypothesis:
+This project tests two hypotheses:
 
-> "The brain encodes more information by using the **TIMING** of signals, not just their presence/absence."
+> 1. "The brain encodes more information by using the **TIMING** of signals, not just their presence/absence."
+> 2. "The 11-dimensional structure of the brain explains why humans naturally use **base-10**."
 
 ## Key Results
 
@@ -17,20 +18,37 @@ This project tests the hypothesis:
 | **Fault Tolerance** | 1 bit = crash | 30% failure OK | **✅** |
 | **Energy Efficiency** | 6000 pJ | 60 pJ | **100x** |
 
-## Real-World Task Results
+## 🆕 11-Dimensional Brain Structure
 
-| Task | Brain-like | Von Neumann |
-|------|-----------|-------------|
-| Pattern Recognition | ✓ | ✓ |
-| Associative Memory | ✓ | ✗ |
-| Sequence Prediction | ✓ | ✓ |
-| Sensor Fusion | ✓ | ✓ |
-| **Total** | **4/4** | **3/4** |
+Based on Blue Brain Project's discovery that the brain has up to 11-dimensional structures:
 
-## Scaling Analysis
+### Information Propagation Speed
 
-- **100 dimensions**: Brain has **7.89×10⁶⁹x** more capacity!
-- Energy efficiency: Brain is **100x** better at all scales
+| Steps | 2D Grid | 11D Hypercube |
+|-------|---------|---------------|
+| 11 | 78 nodes | **2,048 nodes (complete!)** |
+| 88 | 2,025 (complete) | - |
+
+**11D Hypercube is 8x faster!**
+
+### Decimal Hypothesis: Why Base-10?
+
+| Base | Hypercube Advantage |
+|------|---------------------|
+| Base-8 | +2.8% |
+| **Base-10** | **+4.2%** ⭐ |
+| Base-12 | -5.8% |
+| Base-16 | -0.7% |
+
+**Base-10 shows the highest advantage!**
+
+### MNIST Classification (10 digits)
+
+| Topology | Accuracy | Connections |
+|----------|----------|-------------|
+| **9D Hypercube** | **90.6%** ⭐ | 4,608 |
+| Random Sparse | 89.8% | 5,106 |
+| Full Connection | 72.0% | 261,632 |
 
 ## File Structure
 
@@ -39,44 +57,48 @@ brain-vs-neumann/
 ├── README.md
 ├── visualize.py              # Generate publication figures
 ├── experiments/
-│   ├── brain_vs_neumann_sim.py    # Basic simulation
-│   ├── brain_vs_neumann_lif.py    # LIF neuron integration
-│   ├── validation_suite.py        # Comprehensive tests
-│   ├── realworld_tasks.py         # Real-world task comparison
-│   └── scaling_analysis.py        # Scaling analysis
-├── figures/                  # Publication-quality figures
-│   ├── fig1_information_capacity.png
-│   ├── fig2_architecture.png
-│   ├── fig3_pattern_matching.png
-│   ├── fig4_fault_tolerance.png
-│   ├── fig5_energy.png
-│   ├── fig6_summary.png
-│   └── fig_scaling_*.png
-└── results/                  # Experiment results
-    ├── results.txt
-    ├── validation_results.txt
-    ├── realworld_results.txt
-    └── scaling_results.txt
+│   ├── dim11_brain_structure.py  # 11D clique simulation
+│   ├── hypercube_11d.py          # 11D hypercube propagation
+│   ├── mnist_11d_test.py         # MNIST with 11D topology
+│   ├── base_comparison.py        # Why base-10?
+│   ├── brain_vs_neumann_sim.py   # Basic simulation
+│   ├── validation_suite.py       # Comprehensive tests
+│   └── realworld_tasks.py        # Real-world task comparison
+├── figures/
+│   ├── fig_hypercube_propagation.png
+│   ├── fig_decimal_hypothesis.png
+│   └── (6 more figures)
+└── results/
+    ├── 11dim_results.txt
+    ├── hypercube_summary.txt
+    ├── mnist_comparison.txt
+    ├── base_comparison.txt
+    └── (more results)
 ```
 
 ## Usage
 
 ```bash
-# Run basic simulation
-python experiments/brain_vs_neumann_sim.py
+# Run 11D brain structure simulation
+python experiments/dim11_brain_structure.py
 
-# Run validation suite
-python experiments/validation_suite.py
+# Run 11D hypercube propagation test
+python experiments/hypercube_11d.py
 
-# Run real-world tasks
-python experiments/realworld_tasks.py
+# Run MNIST with 11D topology
+python experiments/mnist_11d_test.py
 
-# Run scaling analysis
-python experiments/scaling_analysis.py
+# Run base comparison (why base-10?)
+python experiments/base_comparison.py
 
 # Generate figures
 python visualize.py
 ```
+
+## Publications
+
+- **Zenodo**: [10.5281/zenodo.18307795](https://zenodo.org/records/18307795)
+- **Zenn**: [Why Base-10?](https://zenn.dev/cell_activation/articles/19802ec8c99764)
 
 ## Related Work
 
@@ -86,6 +108,7 @@ python visualize.py
 ## Author
 
 ろーる ([@hafufu-stack](https://github.com/hafufu-stack))
+- **ORCID**: 0009-0004-2517-0177
 - **note**: [https://note.com/cell_activation](https://note.com/cell_activation)
 - **Zenn**: [https://zenn.dev/cell_activation](https://zenn.dev/cell_activation)
 
