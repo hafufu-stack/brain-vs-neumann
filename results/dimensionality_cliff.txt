@@ -1,0 +1,11 @@
+Dimensionality Cliff Experiment
+========================================
+
+2 classes: Hypercube=100.0%, Random=100.0%
+5 classes: Hypercube=100.0%, Random=100.0%
+8 classes: Hypercube=100.0%, Random=100.0%
+10 classes: Hypercube=100.0%, Random=100.0%
+11 classes: Hypercube=100.0%, Random=100.0%
+12 classes: Hypercube=100.0%, Random=100.0%
+15 classes: Hypercube=100.0%, Random=100.0%
+20 classes: Hypercube=100.0%, Random=100.0%

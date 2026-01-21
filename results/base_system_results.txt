@@ -1,0 +1,43 @@
+Base System Generalization Results
+========================================
+
+Base-2 (Binary):
+  Hypothesis: 1D
+  Best: 1D
+  Accuracies: {1: np.float64(100.0), 2: np.float64(100.0), 3: np.float64(100.0)}
+
+Base-3 (Ternary):
+  Hypothesis: 2D
+  Best: 1D
+  Accuracies: {1: np.float64(100.0), 2: np.float64(100.0), 3: np.float64(100.0), 4: np.float64(100.0)}
+
+Base-5 (Quinary):
+  Hypothesis: 4D
+  Best: 2D
+  Accuracies: {2: np.float64(100.0), 3: np.float64(100.0), 4: np.float64(100.0), 5: np.float64(100.0), 6: np.float64(100.0)}
+
+Base-6 (Senary):
+  Hypothesis: 5D
+  Best: 3D
+  Accuracies: {3: np.float64(100.0), 4: np.float64(100.0), 5: np.float64(100.0), 6: np.float64(100.0), 7: np.float64(100.0)}
+
+Base-8 (Octal):
+  Hypothesis: 7D
+  Best: 5D
+  Accuracies: {5: np.float64(100.0), 6: np.float64(100.0), 7: np.float64(100.0), 8: np.float64(100.0), 9: np.float64(100.0)}
+
+Base-10 (Decimal):
+  Hypothesis: 9D
+  Best: 7D
+  Accuracies: {7: np.float64(100.0), 8: np.float64(100.0), 9: np.float64(100.0), 10: np.float64(100.0), 11: np.float64(100.0)}
+
+Base-12 (Duodecimal):
+  Hypothesis: 11D
+  Best: 9D
+  Accuracies: {9: np.float64(100.0), 10: np.float64(100.0), 11: np.float64(100.0)}
+
+Base-16 (Hexadecimal):
+  Hypothesis: 15D
+  Best: 9D
+  Accuracies: {9: np.float64(100.0), 10: np.float64(100.0), 11: np.float64(100.0)}
+

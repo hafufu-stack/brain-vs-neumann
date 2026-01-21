@@ -1,0 +1,33 @@
+Lobotomy Experiment Results
+========================================
+
+0% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
+10% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
+20% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
+30% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
+40% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
+50% destroyed:
+  Hypercube: 100.0%
+  Random: 100.0%
+  Full: 100.0%
+
